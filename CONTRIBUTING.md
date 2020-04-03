@@ -20,12 +20,12 @@ subject to a Simplified BSD License) in Contributions.
 ## Other Resources
 
 Discussion of this work occurs on the
-[jyasskin working group mailing list](https://mailarchive.ietf.org/arch/browse/jyasskin/)
-([subscribe](https://www.ietf.org/mailman/listinfo/jyasskin)).  In addition to
-contributions on GitHub, you are encouraged to participate in discussions there.
+[wpack working group mailing list](https://mailarchive.ietf.org/arch/browse/wpack/)
+([subscribe](https://www.ietf.org/mailman/listinfo/wpack)).  In addition to
+contributions in GitHub, you are encouraged to participate in discussions there.
 
 **Note**: Some working groups adopt a policy whereby substantive discussion of
 technical issues needs to occur on the mailing list.
 
 You might also like to familiarize yourself with other
-[working group documents](https://datatracker.ietf.org/wg/jyasskin/documents/).
+[working group documents](https://datatracker.ietf.org/wg/wpack/documents/).
