@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>jyasskin/draft-jyasskin-wpack-testing master preview</title>
+    <title>jyasskin/draft-jyasskin-wpack-testing main preview</title>
     <meta name="viewport" content="initial-scale=1.0">
     <style type="text/css">/*<![CDATA[*/
       body { font-family: "Helvetica Neue","Open Sans",Helvetica,Calibri,sans-serif; }
@@ -13,18 +13,18 @@
     /*]]>*/</style>
   </head>
   <body>
-    <h1>Editor's drafts for master branch of <a href="https://github.com/jyasskin/draft-jyasskin-wpack-testing">jyasskin/draft-jyasskin-wpack-testing</a></h1>
+    <h1>Editor's drafts for main branch of <a href="https://github.com/jyasskin/draft-jyasskin-wpack-testing">jyasskin/draft-jyasskin-wpack-testing</a></h1>
     <p>View <a href="issues.html">saved issues</a>,
       or the latest GitHub <a href="https://github.com/jyasskin/draft-jyasskin-wpack-testing/issues">issues</a>
       and <a href="https://github.com/jyasskin/draft-jyasskin-wpack-testing/pulls">pull requests</a>.</p>
-    <table id="branch-master">
+    <table id="branch-main">
       <tr>
-        <th>*</th>
-        <td><a href="./*.html"
-           class="html *">html</a></td>
-        <td><a href="./*.txt"
-           class="txt *">plain text</a></td>
-        <td><a href="https://tools.ietf.org/rfcdiff?url1=https://tools.ietf.org/id/*.txt&amp;url2=https://jyasskin.github.io/draft-jyasskin-wpack-testing/*.txt" class="diff *">
+        <th>draft-jyasskin-wpack-testing</th>
+        <td><a href="./draft-jyasskin-wpack-testing.html"
+           class="html draft-jyasskin-wpack-testing">html</a></td>
+        <td><a href="./draft-jyasskin-wpack-testing.txt"
+           class="txt draft-jyasskin-wpack-testing">plain text</a></td>
+        <td><a href="https://tools.ietf.org/rfcdiff?url1=https://tools.ietf.org/id/draft-jyasskin-wpack-testing.txt&amp;url2=https://jyasskin.github.io/draft-jyasskin-wpack-testing/draft-jyasskin-wpack-testing.txt" class="diff draft-jyasskin-wpack-testing">
           diff with last submission</a></td>
       </tr>
     </table>
@@ -36,7 +36,6 @@
            class="html draft-jyasskin-wpack-testing">html</a></td>
         <td><a href="main/draft-jyasskin-wpack-testing.txt"
            class="txt draft-jyasskin-wpack-testing">plain text</a></td>
-        <td><a href=https://tools.ietf.org/rfcdiff?url1=https://jyasskin.github.io/draft-jyasskin-wpack-testing/draft-jyasskin-wpack-testing.txt&amp;url2=https://jyasskin.github.io/draft-jyasskin-wpack-testing/main/draft-jyasskin-wpack-testing.txt>diff with master</a></td>
         <td><a href="https://tools.ietf.org/rfcdiff?url1=https://tools.ietf.org/id/draft-jyasskin-wpack-testing.txt&amp;url2=https://jyasskin.github.io/draft-jyasskin-wpack-testing/main/draft-jyasskin-wpack-testing.txt" class="diff draft-jyasskin-wpack-testing">
           diff with last submission</a></td>
       </tr>
@@ -47,8 +46,8 @@
 //  http://creativecommons.org/publicdomain/zero/1.0/
 // @licend
 window.onload = function() {
-  var referrer_branch = 'master';
-  // e.g., "https://github.com/user/repo/tree/master"
+  var referrer_branch = 'main';
+  // e.g., "https://github.com/user/repo/tree/main"
   var chunks = document.referrer.split("/");
   if (chunks[2] === 'github.com' && chunks[5] === 'tree') {
     referrer_branch = chunks[6];
